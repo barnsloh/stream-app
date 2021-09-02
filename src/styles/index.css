@@ -1,0 +1,55 @@
+.nav-item:first-of-type {
+  font-weight: bold;
+}
+
+.nav.nav-tabs {
+  background-color: #ffc107 !important;
+  z-index: 99;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.show-container {
+  position:relative;
+  top: 50px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.show-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.preloader {
+  min-height: 350px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Custom css for card */
+.card {
+  margin: 10px;
+}
+
+.card-img{
+  object-fit: contain;
+  height: 350px;
+}
+
+.card-body {
+  height: 80px;
+}
+
+.card-text {
+  text-align: left !important;
+}
